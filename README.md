@@ -1,11 +1,3 @@
-# starter-express-api
+#### Pizzaboi App Server
 
-This is the simplest possible nodejs api using express that responds to any request with: 
-```
-Yo!
-```
-
-### Deploy it in 7 seconds: 
-
-[![Deploy to Cyclic](https://deploy.cyclic.app/button.svg)](https://deploy.cyclic.app/)
-
+The following repo handling the Stripe API for my Pizzaboi Food Order application.
