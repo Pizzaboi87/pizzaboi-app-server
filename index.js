@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const stripe = require("stripe")(`${process.env.API_KEY}`);
+const stripe = require("stripe")(`${process.env.API_SECRET_KEY}`);
 
 app.use(express.json());
 
@@ -41,7 +41,7 @@ app.post("/payment-sheet", async (req, res) => {
     paymentIntent: paymentIntent.client_secret,
     ephemeralKey: ephemeralKey.secret,
     customer: customer.id,
-    publishableKey: `${process.env.API_KEY}`,
+    publishableKey: `${process.env.API_PUBLISH_KEY}`,
   });
 });
 app.listen(process.env.PORT || 3000);
