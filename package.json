@@ -1,21 +1,13 @@
 {
-  "name": "starter-express-api",
+  "name": "pizzaboi-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serverless API for Pizzaboi app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
-  },
-  "author": "",
+  "author": "Peter Weiser",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
     "express": "^4.17.1",
     "stripe": "^12.1.1"
